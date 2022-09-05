@@ -16,6 +16,7 @@ function App() {
         {errors.email && <span style={{ color: "red" }}>
         *Email* is mandatory </span>}
         <input type="password" {...register("password")} />
+        <input type="checkbox"/>
         <input type={"submit"} style={{ backgroundColor: "#a1eafb" }} />
       </form>
     </>
